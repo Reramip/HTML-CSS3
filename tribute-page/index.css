@@ -1,0 +1,53 @@
+body{
+  background-color: beige;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+img{
+  position: relative;
+  display: inline;
+  max-width: 100%;
+  margin:0 auto;
+}
+
+ul{
+  line-height: 1.5em;
+}
+
+#img-div{
+  background-color: white;
+  padding:20px 0;
+}
+
+#tribute-info{
+  padding: 20px 0;
+  margin: 0 25%;
+}
+
+li{
+  text-align: left;
+  margin:0.5em 0;
+}
+
+#comment{
+  font-style: italic;
+  font-family: cursive;
+  text-align: left;
+}
+
+footer{
+  font-weight: bold;
+  font-size:20px;
+  padding:20px 0;
+}

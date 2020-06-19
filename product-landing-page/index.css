@@ -1,0 +1,145 @@
+body{
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 80px 0 0 0;
+}
+
+@media(max-width: 500px){
+  #header-img{
+    max-height: 10px;
+  }
+  header{
+    flex-direction: column;
+  }
+  body{
+    margin: 120px 0 0 0;
+  }
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 20px 0;
+}
+
+nav{
+  margin: 0 5% 0 0;
+}
+
+.nav-link{
+  margin: 0 20px;
+}
+
+#header-img{
+  max-height: 40px;
+}
+
+h1, h2{
+  font-size: 24px;
+}
+
+h2{
+  line-height: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+main{
+  margin: 0 20%;
+}
+
+h1{
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#email{
+  padding:5px;
+  min-width: 250px;
+  margin: 10px 0;
+}
+
+#submit{
+  padding:5px;
+  min-width: 150px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: orange;
+}
+
+#features{
+  padding: 20px 0;
+}
+
+.feature{
+  margin: 60px 0;
+}
+
+#how-it-works{
+  display: flex;
+  justify-content: center;
+}
+
+#pricing{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+
+.pricing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:2px solid black;
+  text-align: center;
+  min-width: 220px;
+}
+
+.pricing strong{
+  font-size: 24px;
+}
+
+.product-name{
+  background-color: lightgray;
+  width: 100%;
+  padding: 5% 0;
+}
+.product-name h2{
+  font-size: 18px;
+}
+
+.select{
+  padding:5px;
+  font-size:18px;
+  background-color: orange;
+  width: 6em;
+  margin: 0 0 5% 0;
+}
+
+footer{
+  margin: 0 20%;
+  text-align: right;
+  background-color: lightgray;
+  padding: 20px 20px 10px 20px;
+}
+
+.footer-link{
+  margin:0 15px;
+}

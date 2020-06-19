@@ -1,0 +1,59 @@
+body{
+  background-color: azure;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+header{
+  text-align: center;
+  line-height: 0.7em;
+}
+
+#title{
+  font-size: 32px;
+}
+
+#description{
+  font-style: italic;
+}
+
+#survey-form{
+  margin: 0 25%;
+  padding: 20px;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+}
+
+label, select, input, textarea{
+  display: block;
+}
+
+label{
+  margin: 10px 10px 10px 10px;
+  line-height: 1.2em;
+}
+
+fieldset label{
+  margin:5px 10px;
+}
+
+[type="radio"], [type="checkbox"]{
+  display: inline;
+}
+
+.text-input{
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px 0;
+  margin: 5px 0 0 0;
+}
+
+button{
+  padding:10px 10px;
+  border-radius: 5px;
+  background-color: azure;
+  font-size: 24px;
+}
+
